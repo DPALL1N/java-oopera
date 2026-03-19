@@ -9,10 +9,7 @@ public class Director extends Person {
 
     @Override
     public String toString() {
-        return getName() + " " + getSurname();
+        return super.toString() + " " + numberOfShows;
     }
 
-    public void printDirector() {
-        System.out.println(this.toString());
-    }
 }
